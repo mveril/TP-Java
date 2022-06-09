@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex11">
+  <component name="RunManager" selected="Application.Ex12">
     <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex10" />
       <module name="TP-Java" />
@@ -54,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex7" />
+    <configuration name="Ex12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex12" />
       <module name="TP-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex12" />
         <item itemvalue="Application.Ex11" />
         <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
         <item itemvalue="Application.Ex8" />
-        <item itemvalue="Application.Ex7" />
       </list>
     </recent_temporary>
   </component>
@@ -106,20 +105,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Ex10.java</url>
-          <line>3</line>
-          <properties class="Ex10" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
