@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,14 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex9">
+  <component name="RunManager" selected="Application.Ex10">
+    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex10" />
+      <module name="TP-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex7" />
       <module name="TP-Java" />
@@ -63,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
         <item itemvalue="Application.Ex8" />
         <item itemvalue="Application.Ex7" />
