@@ -15,11 +15,11 @@ public class Ex8 {
         }
         else if (delta == 0)
         {
-            System.out.printf("La solution est %.5f\n", -b/2*a);
+            System.out.printf("La solution est %.5f\n", -b/(2*a));
         }
         else
         {
-            System.out.printf("Les solutions sont %.5f et %.5f\n",(-b-Math.sqrt(delta))/2*a,(-b+Math.sqrt(delta))/2*a);
+            System.out.printf("Les solutions sont %.5f et %.5f\n",(-b-Math.sqrt(delta))/(2*a),(-b+Math.sqrt(delta))/(2*a));
         }
     }
 }
