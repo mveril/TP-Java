@@ -5,7 +5,7 @@ public class Ex9 {
         var input=new Scanner(System.in);
         System.out.print("Numero du mois : ");
         var mothNumber=input.nextByte();
-        String mothName;
+        String mothName = "";
         switch(mothNumber) {
             case 1:
                 mothName = "Janvier";
@@ -44,13 +44,9 @@ public class Ex9 {
                 mothName = "Decembre";
                 break;
             default:
-                mothName=null;
+                System.out.print("Mois invalide");
+                System.exit(0);
         }
-        if (mothName == null) {
-            System.out.print("Mois invalide");
-        }
-        else {
             System.out.printf("Le mois séléctionné est le mois de %s", mothName);
-        }
     }
 }
