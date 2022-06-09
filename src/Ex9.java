@@ -50,7 +50,7 @@ public class Ex9 {
             System.out.print("Mois invalide");
         }
         else {
-            System.out.printf("Le mois séléctionné et le mois de %s", mothName);
+            System.out.printf("Le mois séléctionné est le mois de %s", mothName);
         }
     }
 }
