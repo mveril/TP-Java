@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex11 {
     public static void main(String[] args) {
         var inp=new Scanner(System.in);
-        System.out.println("Factoriel de :");
+        System.out.print("Factoriel de :");
         var n=inp.nextShort();
         long result=1;
         if(n==0)
