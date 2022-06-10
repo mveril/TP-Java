@@ -5,7 +5,7 @@ public class Ex11 {
         var inp=new Scanner(System.in);
         System.out.println("Factoriel de :");
         var n=inp.nextShort();
-        int result=1;
+        long result=1;
         if(n==0)
         {
             System.out.println(result);
