@@ -10,7 +10,8 @@ public class Ex13 {
         var pwdInscr = inp.nextLine();
         System.out.println();
         System.out.println("Connection");
-        while (true) {
+        for (byte i=4;i>=0;i--)
+        {
             System.out.println("Email :");
             var email = inp.nextLine();
             System.out.println("Mots de passe :");
@@ -18,9 +19,12 @@ public class Ex13 {
 
             if (email.equals(emailInscr) && pwd.equals(pwdInscr)) {
                 System.out.println("Bienvenue sur votre session !");
-                break;
+                System.exit(0);
             }
-            System.out.println("Email ou mot de passe incorrect ! Veuillez réessayer");
+            else {
+                System.out.printf("Vous avez saisis les mauvais identifiant il vous reste %d essai\n",i);
+            }
         }
+        System.out.println("Vous avez saisis les mauvais identifiant 5 fois, votre compte est bloqué");
     }
 }

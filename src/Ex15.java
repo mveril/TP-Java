@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex16 {
+public class Ex15 {
     public static void main(String[] args) {
         var arr = new int[3][];
         var inp = new Scanner(System.in);
