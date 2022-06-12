@@ -6,8 +6,12 @@ public class Ex16 {
         int[] arr;
         var inp = new Scanner(System.in);
         // Ecriture
-        System.out.print("Entrer la taille du tableau :");
-        arr=new int[inp.nextInt()];
+        int arrayLength;
+        do {
+            System.out.print("Entrer la taille du tableau :");
+            arrayLength = inp.nextInt();
+        } while (arrayLength < 0);
+        arr=new int[arrayLength];
         for (int i = 0; i <= arr.length-1; i++) {
             System.out.printf("Entrer un nombre pour l'indice %d :",i);
             arr[i]=inp.nextInt();

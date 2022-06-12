@@ -8,7 +8,12 @@ public class Ex15 {
         // Ecriture
         for (int i = 0; i <= arr.length-1; i++) {
             System.out.printf("Entrer la taille du tableau %d :",i+1);
-            arr[i] = new int[inp.nextInt()];
+            int arrayLength;
+            do {
+                System.out.print("Entrer la taille du tableau :");
+                arrayLength = inp.nextInt();
+            } while (arrayLength < 0);
+            arr[i]=new int[arrayLength];
             for (int j = 0; j <= arr[i].length-1; j++) {
                 System.out.printf("Entrer les vaueurs du tableau %d :\n",i+1);
                 System.out.printf("T%d[%d]",i+1,j);
