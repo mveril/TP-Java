@@ -7,10 +7,9 @@ public class Ex15 {
         var inp = new Scanner(System.in);
         // Ecriture
         for (int i = 0; i <= arr.length-1; i++) {
-            System.out.printf("Entrer la taille du tableau %d :",i+1);
             int arrayLength;
             do {
-                System.out.print("Entrer la taille du tableau :");
+                System.out.printf("Entrer la taille du tableau %d :",i+1);
                 arrayLength = inp.nextInt();
             } while (arrayLength < 0);
             arr[i]=new int[arrayLength];

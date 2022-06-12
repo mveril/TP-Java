@@ -38,7 +38,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex16">
+  <component name="RunManager" selected="Application.Ex15">
     <configuration name="Ex11Bis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex11Bis" />
       <module name="TP-Java" />
@@ -76,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex15" />
+        <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex13" />
         <item itemvalue="Application.Ex12" />
         <item itemvalue="Application.Ex11Bis" />
