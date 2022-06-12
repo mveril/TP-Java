@@ -29,7 +29,7 @@ public class Ex16 {
             System.out.printf(">%d existe et se retrouve %d fois dans le tableau\n",searchedValue,count);
         }
         else {
-            System.out.printf("%d n'est pas dans le tableau\n");
+            System.out.printf("%d n'est pas dans le tableau\n",searchedValue);
         }
     }
 }
