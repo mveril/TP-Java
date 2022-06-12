@@ -19,6 +19,7 @@ public class Ex16 {
         System.out.print("Entrer un nombre à rechercher :");
         var searchedValue=inp.nextInt();
         // Lecture
+        System.out.printf("Le tableau contient :\n%s\n", Arrays.toString(arr));
         var count=0;
         for (var item:arr) {
             if (item== searchedValue){
