@@ -6,11 +6,13 @@ public class Ex16 {
         int[] arr;
         var inp = new Scanner(System.in);
         // Ecriture
-        System.out.println("Entrer la taille du tableau");
+        System.out.print("Entrer la taille du tableau :");
         arr=new int[inp.nextInt()];
         for (int i = 0; i <= arr.length-1; i++) {
+            System.out.printf("Valeur %d :",i);
             arr[i]=inp.nextInt();
         }
+        System.out.print("Valeur recherché :");
         var searchedValue=inp.nextInt();
         // Lecture
         var count=0;
@@ -19,5 +21,6 @@ public class Ex16 {
                 count++;
             }
         }
+        System.out.printf("La valeur %d apparait %d fois\n3",searchedValue,count);
     }
 }
