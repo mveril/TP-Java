@@ -202,3 +202,11 @@ Sinon le programme lui dira que le nombre recherché n'existe pas dans le tablea
 > ->Entrer un nombre à rechercher : 6
 > 
 > ->6 existe et se retrouve 3 fois dans le tableau
+# Exercice 17
+Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, retourne la chaine inverse.
+
+## Ex:
+
+> Votre chaine : mamy
+> 
+> Résultat : ymam
