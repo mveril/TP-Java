@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex18 {
     public static void main(String[] args) {
         var inp = new Scanner(System.in);
-        System.out.printf("Entrer une chaine à inverser :");
+        System.out.printf("Entrer une chaine de caractère à tester :");
         var str=inp.nextLine();
         var builder = new StringBuilder();
         for (int i = str.length() -1; i >=0 ; i--) {
