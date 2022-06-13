@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ex17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +38,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex19">
+  <component name="RunManager" selected="Application.Ex20">
     <configuration name="Ex14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex14" />
-      <module name="TP-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex15" />
       <module name="TP-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex20" />
+      <module name="TP-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex20" />
         <item itemvalue="Application.Ex19" />
         <item itemvalue="Application.Ex18" />
         <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex14" />
-        <item itemvalue="Application.Ex15" />
       </list>
     </recent_temporary>
   </component>
