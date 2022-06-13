@@ -26,14 +26,16 @@ public class Ex15 {
         for (int i = 0; i <= arr.length-1; i++) {
             System.out.printf("Le tableau numero %d contient :\n%s\n",i, Arrays.toString(arr[i]));
         }
+        boolean showPlus = false;
         for (int i = 0; i <= arr.length-1; i++) {
             for (int j = 0; j <= arr[i].length-1; j++) {
                 var v=arr[i][j];
                 if (v % 3 == 0){
-                    if (sum!=0)
+                    if (showPlus)
                     {
                         System.out.print(" + ");
                     }
+                    showPlus = true;
                     System.out.print(v);
                     sum+=v;
                 }

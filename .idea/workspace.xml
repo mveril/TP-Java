@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ex16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex16">
+  <component name="RunManager" selected="Application.Ex15">
     <configuration name="Ex11Bis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex11Bis" />
       <module name="TP-Java" />
@@ -76,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex15" />
+        <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex13" />
         <item itemvalue="Application.Ex12" />
         <item itemvalue="Application.Ex11Bis" />
