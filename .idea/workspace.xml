@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex21.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +38,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex21">
-    <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex17" />
-      <module name="TP-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex22">
     <configuration name="Ex18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex18" />
       <module name="TP-Java" />
@@ -75,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex22" />
+      <module name="TP-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex22" />
         <item itemvalue="Application.Ex21" />
         <item itemvalue="Application.Ex19" />
         <item itemvalue="Application.Ex20" />
         <item itemvalue="Application.Ex18" />
-        <item itemvalue="Application.Ex17" />
       </list>
     </recent_temporary>
   </component>
