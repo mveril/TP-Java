@@ -9,7 +9,7 @@ public class Ex18 {
         for (int i = str.length() -1; i >=0 ; i--) {
             builder.append(str.charAt(i));
         }
-        if (builder.toString().equals(str)){
+        if (builder.toString().equalsIgnoreCase(str)){
             System.out.printf("Le mot %s est un palindrome !\n", str);
         } else {
             System.out.printf("Le mot %s n'est pas un palindrome.\n", str);

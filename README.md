@@ -226,3 +226,6 @@ Entrez un text : oui
 Résultat : oui n'est pas un palindrome
 
 [C'est quoi un palindrome?](https://www.larousse.fr/dictionnaires/francais/palindrome/57418)
+
+# Exercice 19
+Ecrire un programme java qui demande à l'utilisateur de remplir une matrice carré 4 x 4 et qui ensuite va calculer la somme des elements de la diagonale
