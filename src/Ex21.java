@@ -20,10 +20,7 @@ public class Ex21 {
             if (language.isBlank()) {
                 break;
             }
-            if (languages.contains(language)){
-                languages.remove(language);
-            }
-            else {
+            if (!languages.remove(language)){
                 System.out.printf("%s n'est pas dans la liste des langages de programation défini\n",language);
             }
         }
