@@ -38,7 +38,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex23">
+  <component name="RunManager" selected="Application.Ex24">
     <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex17" />
       <module name="TP-Java" />
@@ -60,13 +60,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex22HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex22HashMap" />
-      <module name="TP-Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ex23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex23" />
       <module name="TP-Java" />
@@ -74,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex24" />
+      <module name="TP-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex24" />
         <item itemvalue="Application.Ex23" />
         <item itemvalue="Application.Ex18" />
         <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex22" />
-        <item itemvalue="Application.Ex22HashMap" />
       </list>
     </recent_temporary>
   </component>
