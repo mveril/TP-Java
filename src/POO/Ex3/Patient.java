@@ -49,7 +49,7 @@ public class Patient {
         this.weight = weight;
     }
 
-    public float iMC(){
+    public float IMC(){
         return (float)(weight/Math.pow(height,2));
     }
 
