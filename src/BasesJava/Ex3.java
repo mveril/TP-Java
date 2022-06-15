@@ -1,3 +1,5 @@
+package BasesJava;
+
 public class Ex3 {
     public static void main(String[] args) {
         String prenom = "Mickaël";

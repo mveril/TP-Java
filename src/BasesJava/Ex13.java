@@ -1,22 +1,15 @@
-import java.util.Scanner;
-import java.util.regex.Pattern;
+package BasesJava;
 
-public class Ex14 {
+import java.util.Scanner;
+
+public class Ex13 {
     public static void main(String[] args) {
         var inp = new Scanner(System.in);
         System.out.println("Inscription");
-        var emailRegEx= Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
-        String emailInscr;
-        do {
-            System.out.print("Entrer une adresse email : ");
-            emailInscr =inp.nextLine();
-        } while (!emailRegEx.matcher(emailInscr).matches());
-        var pwdRegEx= Pattern.compile("^\\d{4}$");
-        String pwdInscr;
-        do {
-            System.out.print("Entrer un mot de passe : ");
-            pwdInscr = inp.nextLine();
-        } while (!pwdRegEx.matcher(pwdInscr).matches());
+        System.out.print("Entrer une adresse email : ");
+        var emailInscr = inp.nextLine();
+        System.out.print("Entrer un mot de passe : ");
+        var pwdInscr = inp.nextLine();
         System.out.println();
         System.out.println("Connection");
         for (byte i=4;i>=0;i--)

@@ -1,6 +1,8 @@
+package BasesJava;
+
 import java.util.Scanner;
 
-public class Ex20 {
+public class Ex19 {
     public static void main(String[] args) {
         int[][] matrix = new int[4][4];
         var inp = new Scanner(System.in);
@@ -23,7 +25,7 @@ public class Ex20 {
         }
         var sum = 0;
         for (int i = 0; i < matrix.length; i++) {
-            sum+=matrix[i][i]+matrix[i][matrix.length-i-1];
+            sum+=matrix[i][i];
         }
         System.out.printf("La somme de la diagonale est de : %s", sum);
     }

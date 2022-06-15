@@ -1,3 +1,5 @@
+package BasesJava;
+
 import java.util.ArrayList;
 
 public class Ex22 {

@@ -1,3 +1,5 @@
+package BasesJava;
+
 import java.util.Scanner;
 
 public class Ex18 {

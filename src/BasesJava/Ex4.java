@@ -1,3 +1,5 @@
+package BasesJava;
+
 public class Ex4 {
     public static void main(String[] args) {
         int a = 51;

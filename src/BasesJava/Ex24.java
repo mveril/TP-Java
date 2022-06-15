@@ -1,3 +1,5 @@
+package BasesJava;
+
 public class Ex24 {
     static boolean isPrefix(String word, String prefix){
         for (int i = 0; i < prefix.length(); i++) {
