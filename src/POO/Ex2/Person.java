@@ -1,10 +1,10 @@
 package POO.Ex2;
 
 public class Person {
-    public Person(String firstName, String lastName, String pays, boolean isMarred, byte numberOfChild){
+    public Person(String firstName, String lastName, String country, boolean isMarred, byte numberOfChild){
         this.firstName = firstName;
         this.lastName = lastName;
-        this.pays = pays;
+        this.country = country;
         this.married = isMarred;
         this.numberOfChildren = numberOfChild;
     }
@@ -29,14 +29,14 @@ public class Person {
         this.lastName = lastName;
     }
 
-    private String pays;
+    private String country;
 
-    public String getPays() {
-        return pays;
+    public String getCountry() {
+        return country;
     }
 
-    public void setPays(String pays) {
-        this.pays = pays;
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     private boolean married;
