@@ -15,10 +15,10 @@ public class Program {
         System.out.print("Marié :");
         user.isMarried = inp.nextBoolean();
         System.out.print("Nombre d'enfant :");
-        user.numberOfChildrens = inp.nextByte();
+        user.numberOfChildren = inp.nextByte();
         System.out.printf("L'utilisateur s'appelle : %s\n", user.fullName() );
         System.out.printf("L'utilisateur vie en : %s\n", user.pays );
-        System.out.printf("L'utilisateur à %d enfant\n", user.numberOfChildrens );
+        System.out.printf("L'utilisateur à %d enfant\n", user.numberOfChildren);
         System.out.printf("L'utilisateur %s marié\n", user.isMarried ? "est" : "n'est pas");
     }
 }

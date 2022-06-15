@@ -5,7 +5,7 @@ public class Person {
     String lastName;
     String pays;
     boolean isMarried;
-    byte numberOfChildrens;
+    byte numberOfChildren;
 
     String fullName(){
         return  String.format("%s %s" , firstName, lastName);
