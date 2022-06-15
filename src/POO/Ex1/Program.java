@@ -19,6 +19,6 @@ public class Program {
         System.out.printf("L'utilisateur s'appel : %s\n", user.fullName() );
         System.out.printf("L'utilisateur vie en : %s\n", user.pays );
         System.out.printf("L'utilisateur à %d enfant\n", user.numberOfChildrens );
-        System.out.printf("L'utilisateur %s marié \n", user.isMarried ? "est" : "n'est pas");
+        System.out.printf("L'utilisateur %s marié\n", user.isMarried ? "est" : "n'est pas");
     }
 }
