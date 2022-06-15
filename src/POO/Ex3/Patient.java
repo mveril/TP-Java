@@ -53,8 +53,11 @@ public class Patient {
         return (float)(weight/Math.pow(height,2));
     }
 
+    public String fullName() {
+        return String.format("%s %s", firstName, lastName);
+    }
     @Override
     public String toString() {
-        return String.format("%s %s", firstName, lastName);
+        return fullName();
     }
 }
