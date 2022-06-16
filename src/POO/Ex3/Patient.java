@@ -1,5 +1,7 @@
 package POO.Ex3;
 
+import java.util.ArrayList;
+
 public class Patient {
     private String firstName;
     private String lastName;
