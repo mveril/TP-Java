@@ -1,17 +1,17 @@
 package POO.Ex4;
 
-public class Camion extends Veicule {
+public class Camion extends Vehicule {
     public Camion(short annee, float prix) {
         super(annee, prix);
     }
 
     @Override
     public void demarrer() {
-        System.out.print("Je démarre le camion");
+        System.out.println("Je démarre le camion");
     }
 
     @Override
     public void accelerer() {
-        System.out.printf("J'appuie sur la pédale d'accélérateur du camion");
+        System.out.println("J'appuie sur la pédale d'accélérateur du camion");
     }
 }

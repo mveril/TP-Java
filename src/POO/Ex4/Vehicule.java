@@ -1,15 +1,15 @@
 package POO.Ex4;
 
-public abstract class Veicule {
+public abstract class Vehicule {
     private int matricule;
     private short annee;
     private float prix;
 
     private static int sNextMatricule = 0;
 
-    public Veicule(short annee, float prix) {
-        this.matricule = Veicule.sNextMatricule;
-        Veicule.sNextMatricule++;
+    public Vehicule(short annee, float prix) {
+        this.matricule = Vehicule.sNextMatricule;
+        Vehicule.sNextMatricule++;
         this.annee = annee;
         this.prix = prix;
     }
@@ -40,6 +40,6 @@ public abstract class Veicule {
 
     @Override
     public String toString() {
-        return String.format("Veicule :\nMatricule :%d\nannee : %d\nprix: %.2f",matricule,annee,prix);
+        return String.format("Véhicule :\nMatricule :%d\nannee : %d\nprix: %.2f",matricule,annee,prix);
     }
 }
