@@ -26,4 +26,7 @@ public class TPUtils {
     public static void toUpperCharArray(char[] array,int i){
         array[i]=Character.toUpperCase(array[i]);
     }
+    public  static  void toLowerCharArray(char[] array, int i){
+        array[i]=Character.toLowerCase(array[i]);
+    }
 }
