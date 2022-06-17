@@ -3,6 +3,8 @@ package ValidationDesAcquis;
 import java.util.Scanner;
 
 public class TPUtils {
+
+    private  TPUtils() {};
     public static int[] declareArrayKeyboard(Scanner scanner) {
         return TPUtils.declareArrayKeyboard(scanner,"Entrez une taille de tableau : ","Entrez la valeur pour T[%d] : ");
     }
