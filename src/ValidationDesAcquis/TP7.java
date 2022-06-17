@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class TP7 {
     public static char[] alternateCase(char[] array){
-        var arrayCopy = Arrays.copyOf(array,array.length);
+        var result = new char[array.length];
         for (int i = 0; i < array.length; i++) {
             if (i % 2 ==0) {
-                TPUtils.toLowerCharArray(arrayCopy,i);
+                result[i] = Character.toLowerCase(array[i]);
             } else {
-                TPUtils.toUpperCharArray(arrayCopy,i);
+                result[i] =  Character.toUpperCase(array[i]);
             }
         }
-        return arrayCopy;
+        return result;
     }
     public static void main(String[] args) {
         var array = new char[] {'a', 'b', 'c', 'd', 'e'};
