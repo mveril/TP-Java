@@ -22,4 +22,8 @@ public class TPUtils {
         }
         return array;
     }
+
+    public static void toUpperCharArray(char[] array,int i){
+        array[i]=Character.toUpperCase(array[i]);
+    }
 }
