@@ -229,3 +229,35 @@ Résultat : oui n'est pas un palindrome
 
 # Exercice 19
 Ecrire un programme java qui demande à l'utilisateur de remplir une matrice carré 4 x 4 et qui ensuite va calculer la somme des elements de la diagonale
+
+# Exercice 20.
+A partir du TP précédent, ajouter le calcul de la somme de 2 diagonales
+
+# Exercice 21.
+
+Ecrire un programme Java demande à l'utilisateur de saisir  liste de langages de programmations à partir du clavier.
+
+Une fois le tableau rempli, l'utilisateur sera appelé à saisir les noms des langages qu'il souhaite retirer de liste.
+
+Le programme devra ensuite retirer ces langages et afficher l'état du tableau avant et après la suppression.
+
+# Exercice 22
+Ecrire un programme Java qui remplit un tableau avec une liste des adresse email : christian.lisangola@gmail.com, jean.paul@gmail.com, alain@gmail.com, lydie@yahoo.fr, josephine.lajoie@yahoo.com, luise@hotmail.fr, philemon.turion@gmail.com, jules.cesar@hotmail.fr
+
+Ensuite le programme va afficher en % le taux d'adresse gmail, yahoo et hotmail.
+
+Essayer de le résoudre au plus, et essayer approche basé sur le [HMap](https://www.youtube.com/watch?v=FhNJ6aikTVI).
+
+# Exercice 24
+Ecrire une méthode Java qui prend en paramètre 2 string et qui ensuite retourne un booléen(true/false) selon que le 2ème string est le préfixe du premier ou pas.
+
+## Ex :
+
+``` Java
+isPrefix("banner", "bang")
+> false
+```
+``` Java
+isPrefix("hugging", "hug")
+> true
+```
