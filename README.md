@@ -1,7 +1,8 @@
-# TP algoritmique Java
-Ce TP à été effectué dans le cadre
+# TP algorithmique Java
+Ces TP ont été effectué dans le cadre
 de la formation M2I Java Sopra Steria
-## Ex 1
+## Bases java
+### Ex 1
 >Ecrire un algorithme qui demande l'âge d'un enfant. Ensuite, il l'informe de sa catégorie :
 >
 >« Poussin » de 7 à 9 ans
@@ -13,7 +14,7 @@ de la formation M2I Java Sopra Steria
 >« Minime » de 14 à 15 ans
 >
 >« Cadet » 16 à 17 ans
-### Pseudo code
+#### Pseudo code
 ```
 Si age < 7
   Afficher "Trop jeune"
@@ -31,25 +32,25 @@ Sinon
   Afficher "Trop grand" 
 ```
 
-## Ex 2
+### Ex 2
 >Ecrire un programme Java qui demande à l'utilisateur de saisir la valeur du diamètre, et qui ensuite va effectuer le calcul de la surface.
 >
 >Surface = Rayon x Rayon x PI;
 Rayon = Diamètre / 2
-### Pseudo code
+#### Pseudo code
 ```
  Rayon=Diamètre/2
  Surface = rayon*rayon*PI
 ```
 
-## Ex 3
+### Ex 3
 >Ecrire un programme Java qui demande à l'utilisateur de saisir son nom, prenom et age, et qui ensuite va afficher le message : "Vous vous appelez &lt;prenom&gt; &lt;nom&gt;, et vous avez &lt;age&gt; ans"
-### Pseudo code
+#### Pseudo code
 ```
 Afficher Format("Vous vous appelez %s %s, et vous avez %s ans", prenom, nom, age")
 ```
 
-## Ex 4
+### Ex 4
 > Ecrire un programme Java qui déclare 3 variables, a,b,c et qui va ensuite effectuer une permutation de ces valeurs :
 > Exemple :
 > Entrez la première valeur(a) : 51
@@ -59,7 +60,7 @@ Afficher Format("Vous vous appelez %s %s, et vous avez %s ans", prenom, nom, age
 > Permutation: b <== a, c <== b, a <== c
 > Les valeurs permutées sont : a = 235, b = 51 et c = 876
 
-### Pseudo code
+#### Pseudo code
 ```
 d=c
 c=b
@@ -70,7 +71,7 @@ Afficher "b=",b
 Afficher "c=",c
 ```
 
-## Ex 5
+### Ex 5
 
 > Ecrivez un programme Age.java qui :
 > declare l'âge de l'utilisateur ;
@@ -81,13 +82,13 @@ Afficher "c=",c
 > Exemple d'exécution du programme:
 > age = 30
 > Votre année de naissance est : 1992
-### Pseudo code
+#### Pseudo code
 ```
 anneeDeNaissance=annee-age
 Afficher "Votre année de naissance est : ", anneeDeNaissance 
 ```
 
-# Exercice 7
+### Exercice 7
 Ecrivez un programme Java qui lit un nombre et indique s'il est positif, négatif ou s'il vaut zéro et s'il est pair ou impair.
 Exemple d'exécution:
 Entrez un nombre entier: 5
@@ -96,22 +97,23 @@ Entrez un nombre entier: -4
 Le nombre est négatif et pair
 Entrez un nombre entier: 0
 
-# Exercice 8
+### Exercice 8
 Ecrivez un programme Java qui permet de résoudre une équation du 2nd degré de la forme ax2+bx+c = 0.
 L'utilisateur devra fournir a,b,c à partir du clavier, ensuite le programme lui donnera la solution
 [Principe du fonctionnement d'une équation du 2nd degré](https://www.maths-et-tiques.fr/telech/Secondegre2ESL.pdf)
 
 
-Exercice 9
+### Exercice 9
 Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche le nom du mois correspondant.
 
-# Exercice 9
-Mois : 4
-Résult : Avril
+#### Ex :
+>Mois : 4
+> 
+>Résult : Avril
 
 Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur de cas(à trouver sur internet)
 
-# Exercice 10
+### Exercice 10
 Écrivez un programme Tables.java affichant les tables de multiplication de 2 à 10.
 Votre programme devra produire la sortie suivante à l'écran :
 
@@ -139,21 +141,21 @@ Votre programme devra produire la sortie suivante à l'écran :
 > 
 >1 * 10 = 10…
 
-# Exercice 11
+### Exercice 11
 Écrivez un programme Java qui demande à l'utilisateur d'entrer un nombre et qui ensuite va calculer et afficher la factorielle de ce nombre:
 
-## Ex:
+#### Ex:
 
-Nombre : 3
-
-Factorielle de 3 : 3x2x1 = 6
+> Nombre : 3
+>
+> Factorielle de 3 : 3x2x1 = 6
 
 [Regle de calcul de factorielle](http://villemin.gerard.free.fr/Denombre/Factorie.htm)
 
-# Exercice 11 bis
+### Exercice 11 bis
 Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27.
 
-# Exercice 12
+### Exercice 12
 Ecrire un programme Javascript qui permet à l'utilisateur de définir une adresse email et un mot de passe.
 
 Ensuite dans un second temps, il sera demandé à l'utilisateur de fournir l'email et le mot de passe:
@@ -162,7 +164,7 @@ Si l'email et le mot de passe ne correspondent pas aux valeurs définies, le mes
 
 Sinon, le message "Bienvenu dans votre espace client" devra s'afficher.
 
-# Exercice 13
+### Exercice 13
 A l'exercice précédent, s'ajoute un nouveau requirement:
 
 Le nombre de fois que l'utilisateur peut saisir des mauvais identifiants est limité à 5, ensuite le programme va s'arrêter avec un message disant.
@@ -173,16 +175,16 @@ Le nombre de fois que l'utilisateur peut saisir des mauvais identifiants est lim
 
 Il faut dire à au user le nombre de tentatives restants
 
-# Exercice 14
+### Exercice 14
 À l'exercice précédent :
 
 Ajouter une validation de type de donnees pour que le code PIN saisi ne soit compose que des chiffres
 
-# Exercice 15
+### Exercice 15
 Ecrire un programme Java qui permet à l'utilisateur de déclarer 3 tableaux d'entiers.
 Ces tableaux ne doivent pas forcément avoir la même taille
 Le programme doit ensuite fournir afficher les 3 tableaux en format [element1, element2,...,elementN] et la somme de tous les éléments multiples 3 dans les 3 tableaux.
-## Ex :
+#### Ex :
 >T1 : [ 2, 6, 8, 15,39,11 ]
 > 
 >T2 : [ 21, 33, 12, 19,0 ]
@@ -191,49 +193,49 @@ Le programme doit ensuite fournir afficher les 3 tableaux en format [element1, e
 > 
 >S = 6+15+39+21+33+12+18 = 144
 
-## Exercice 16
+### Exercice 16
 Ecrire un programme Java qui demande à l'utilisateur de remplir un tableau d'entiers à partir du clavier.
 Puis le programme devra lui demander d'entrer un nombre à rechercher dans le tableau.
 Si nombre existe, le programme lui dira que le nombre existe et le nombre de fois qu'ils se retrouve dans le tableau
 Sinon le programme lui dira que le nombre recherché n'existe pas dans le tableau
-## Ex :
+#### Ex :
 > Tableau saisi à partir du clavier : 12,45,6,7,12,23,33,6,22,3,6
 > 
 > ->Entrer un nombre à rechercher : 6
 > 
 > ->6 existe et se retrouve 3 fois dans le tableau
-# Exercice 17
+### Exercice 17
 Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, retourne la chaine inverse.
 
-## Ex:
+#### Ex:
 
 > Votre chaine : mamy
 > 
 > Résultat : ymam
 
-# Exercice 18.
+### Exercice 18.
 Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, renseigne si celui est un palindrome(mot qui se lit de la même dans les 2 sens).
 
-# Ex :
+#### Ex :
 
-Entrez un text : non
+>Entrez un text : non
 
-Résultat : non est un palindrome
+>Résultat : non est un palindrome
 
 
-Entrez un text : oui
+>Entrez un text : oui
 
-Résultat : oui n'est pas un palindrome
+>Résultat : oui n'est pas un palindrome
 
 [C'est quoi un palindrome?](https://www.larousse.fr/dictionnaires/francais/palindrome/57418)
 
-# Exercice 19
+### Exercice 19
 Ecrire un programme java qui demande à l'utilisateur de remplir une matrice carré 4 x 4 et qui ensuite va calculer la somme des elements de la diagonale
 
-# Exercice 20.
+### Exercice 20.
 A partir du TP précédent, ajouter le calcul de la somme de 2 diagonales
 
-# Exercice 21.
+### Exercice 21.
 
 Ecrire un programme Java demande à l'utilisateur de saisir  liste de langages de programmations à partir du clavier.
 
@@ -241,17 +243,17 @@ Une fois le tableau rempli, l'utilisateur sera appelé à saisir les noms des la
 
 Le programme devra ensuite retirer ces langages et afficher l'état du tableau avant et après la suppression.
 
-# Exercice 22
+### Exercice 22
 Ecrire un programme Java qui remplit un tableau avec une liste des adresse email : christian.lisangola@gmail.com, jean.paul@gmail.com, alain@gmail.com, lydie@yahoo.fr, josephine.lajoie@yahoo.com, luise@hotmail.fr, philemon.turion@gmail.com, jules.cesar@hotmail.fr
 
 Ensuite le programme va afficher en % le taux d'adresse gmail, yahoo et hotmail.
 
 Essayer de le résoudre au plus, et essayer approche basé sur le [HMap](https://www.youtube.com/watch?v=FhNJ6aikTVI).
 
-# Exercice 24
+### Exercice 24
 Ecrire une méthode Java qui prend en paramètre 2 string et qui ensuite retourne un booléen(true/false) selon que le 2ème string est le préfixe du premier ou pas.
 
-## Ex :
+#### Ex :
 
 ``` Java
 isPrefix("banner", "bang")
