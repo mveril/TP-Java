@@ -456,8 +456,8 @@ maMethode({"haut", "haut", "bas", "gauche", "gauche",
 Recherche de caractères identiques dans une rangée
 
 On vous donne une chaîne de caractères d'un seul mot comme argument.
-Vous retournerez true si elle contient deux caractères identiques dans
-une rangée,c'est-à-dire qui se suivent, sinon elle retournera false.
+Vous retournerez `true` si elle contient deux caractères identiques dans
+une rangée,c'est-à-dire qui se suivent, sinon elle retournera `false`.
 
 #### Exigences
 
