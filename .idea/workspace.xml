@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b195442-05e0-4126-8a4c-5295c6f01e7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidationDesAcquis/TP9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationDesAcquis/TP9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +45,7 @@
       <recent name="D:\Users\mikav\Java\TP-Java\src\POO\Ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TP8">
-    <configuration name="TP4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidationDesAcquis.TP4" />
-      <module name="TP-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ValidationDesAcquis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TP9">
     <configuration name="TP5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ValidationDesAcquis.TP5" />
       <module name="TP-Java" />
@@ -111,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TP9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidationDesAcquis.TP9" />
+      <module name="TP-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ValidationDesAcquis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TP9" />
         <item itemvalue="Application.TP8" />
         <item itemvalue="Application.TP7" />
         <item itemvalue="Application.TP6" />
         <item itemvalue="Application.TP5" />
-        <item itemvalue="Application.TP4" />
       </list>
     </recent_temporary>
   </component>
