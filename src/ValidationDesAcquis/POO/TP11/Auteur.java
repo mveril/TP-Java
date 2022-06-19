@@ -9,11 +9,15 @@ public class Auteur {
         this.prix = prix;
     }
 
+    public Auteur(String nom){
+        this(nom,false);
+    }
+
     public String getNom() {
         return nom;
     }
 
-    public boolean isPrix() {
+    public boolean hasPrix() {
         return prix;
     }
 }

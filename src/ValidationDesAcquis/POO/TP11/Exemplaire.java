@@ -1,10 +1,11 @@
 package ValidationDesAcquis.POO.TP11;
 
-public class Exemplaire implements Cloneable {
+public class Exemplaire implements Cloneable, Affichable {
     private final Oeuvre oeuvre;
 
     public Exemplaire(Oeuvre oeuvre) {
         this.oeuvre = oeuvre;
+        System.out.printf("Nouvel exemplaire -> %s\n", oeuvre);
     }
 
     public Exemplaire(Exemplaire exemplaire) {

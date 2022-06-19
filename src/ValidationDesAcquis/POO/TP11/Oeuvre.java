@@ -30,6 +30,6 @@ public class Oeuvre implements Affichable {
 
     @Override
     public String toString() {
-        return String.format("%s, %s, en %s",titre, auteur, langue);
+        return String.format("%s, %s, en %s",titre, auteur.getNom(), langue);
     }
 }

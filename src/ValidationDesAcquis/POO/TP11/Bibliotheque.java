@@ -1,6 +1,7 @@
 package ValidationDesAcquis.POO.TP11;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Spliterator;
 
@@ -11,7 +12,11 @@ public class Bibliotheque implements Iterable<Exemplaire> {
     public Bibliotheque(String nom) {
         this.nom = nom;
         exemplaires = new ArrayList<>();
-        System.out.printf("La bibliothèque %s est ouverte",nom);
+        System.out.printf("La bibliothèque %s est ouverte\n",nom);
+    }
+
+    public String getNom() {
+        return nom;
     }
 
     public int getNbExemplaires(){
@@ -53,11 +58,15 @@ public class Bibliotheque implements Iterable<Exemplaire> {
     }
 
     public void afficherAuteurs(boolean prix){
+        var auteursPrime= new HashSet<Auteur>();
         for (var exemplaire : this) {
             var auteur = exemplaire.getOeuvre().getAuteur();
-            if (auteur.isPrix() || !prix){
-                System.out.println(auteur.getNom());
+            if (auteur.hasPrix() || !prix) {
+                auteursPrime.add(auteur);
             }
+        }
+        for (var auteur: auteursPrime) {
+            System.out.println(auteur.getNom());
         }
     }
 
