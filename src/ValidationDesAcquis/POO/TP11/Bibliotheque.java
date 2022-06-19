@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Spliterator;
 
-public class Bibliotheque implements Iterable<Exemplaire> {
+public final class Bibliotheque implements Iterable<Exemplaire> {
     private String nom;
     private ArrayList<Exemplaire> exemplaires;
 

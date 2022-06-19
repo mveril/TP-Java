@@ -2,7 +2,7 @@ package ValidationDesAcquis.POO.TP11;
 
 import java.util.HashSet;
 
-public class Program {
+public  class Program {
     public static void main(String[] args) {
         var bMunicipale = new Bibliotheque("municipale");
         var victor = new Auteur("Victor Hugo");

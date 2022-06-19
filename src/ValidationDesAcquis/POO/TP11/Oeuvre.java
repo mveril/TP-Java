@@ -1,6 +1,8 @@
 package ValidationDesAcquis.POO.TP11;
 
-public class Oeuvre implements Affichable {
+import java.util.Objects;
+
+public final class Oeuvre implements Affichable {
     private String titre;
     private final Auteur auteur;
     private String langue;
@@ -31,5 +33,18 @@ public class Oeuvre implements Affichable {
     @Override
     public String toString() {
         return String.format("%s, %s, en %s",titre, auteur.getNom(), langue);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Oeuvre oeuvre = (Oeuvre) o;
+        return titre.equals(oeuvre.titre) && auteur.equals(oeuvre.auteur) && langue.equals(oeuvre.langue);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(titre, auteur, langue);
     }
 }

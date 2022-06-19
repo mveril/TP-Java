@@ -1,6 +1,8 @@
 package ValidationDesAcquis.POO.TP11;
 
-public class Auteur {
+import java.util.Objects;
+
+public final class Auteur {
     private String nom;
     private boolean prix;
 
@@ -19,5 +21,19 @@ public class Auteur {
 
     public boolean hasPrix() {
         return prix;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Auteur auteur = (Auteur) o;
+        return prix == auteur.prix && nom.equals(auteur.nom);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nom, prix);
     }
 }

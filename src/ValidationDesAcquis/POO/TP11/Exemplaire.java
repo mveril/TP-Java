@@ -1,6 +1,6 @@
 package ValidationDesAcquis.POO.TP11;
 
-public class Exemplaire implements Cloneable, Affichable {
+public final class Exemplaire implements Cloneable, Affichable {
     private final Oeuvre oeuvre;
 
     public Exemplaire(Oeuvre oeuvre) {
