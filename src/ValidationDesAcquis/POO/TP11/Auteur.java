@@ -19,7 +19,7 @@ public final class Auteur {
         return nom;
     }
 
-    public boolean hasPrix() {
+    public boolean getPrix() {
         return prix;
     }
 

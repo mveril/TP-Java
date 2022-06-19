@@ -70,6 +70,10 @@ public final class Bibliotheque implements Iterable<Exemplaire> {
         }
     }
 
+    public void afficherAuteur(){
+        afficherAuteurs(false);
+    }
+
     @Override
     public Iterator<Exemplaire> iterator() {
         return exemplaires.iterator();
