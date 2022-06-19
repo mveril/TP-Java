@@ -18,7 +18,7 @@ public class Tirelire {
         if (montant == 0){
             System.out.println("Vous êtes sans le sou.");
         } else {
-            System.out.printf("Vous avez : %.2f € dans votre tirelire.\n",montant);
+            System.out.printf("Vous avez : %.1f € dans votre tirelire.\n",montant);
         }
     }
 
@@ -51,6 +51,4 @@ public class Tirelire {
         }
         return montant-budjet;
     }
-
-
 }
