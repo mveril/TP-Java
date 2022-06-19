@@ -29,14 +29,14 @@ public class Bibliotheque implements Iterable<Exemplaire> {
     }
 
     public ArrayList<Exemplaire> listerExemplaires(){
-        return listerExemplaires("")
+        return listerExemplaires("");
     }
 
     public ArrayList<Exemplaire> listerExemplaires(String langue){
-        var list = new ArrayList<Exemplaire>()
+        var list = new ArrayList<Exemplaire>();
         for (var exemplaire:this) {
             if (langue.isEmpty() || exemplaire.getOeuvre().getLangue() == langue){
-                list.add(exemplaire)
+                list.add(exemplaire);
             }
         }
         return list;
@@ -49,6 +49,7 @@ public class Bibliotheque implements Iterable<Exemplaire> {
                 count++;
             }
         }
+        return count;
     }
 
     public void afficherAuteurs(boolean prix){
